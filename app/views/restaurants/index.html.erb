@@ -1,0 +1,7 @@
+<h1>Restaurants</h1>
+<div class="containter m-3">
+<%= render "restaurants/list", restaurants: @restaurants %>
+<div class="new">
+  <%= link_to "Add a new restaurant", new_restaurant_path %>
+</div>
+</div>
